@@ -2,7 +2,7 @@ ABRIR UDP NO SERVIDOR
 
 Configure o json do servidor v2ray, /etc/v2ray/config.json. Adicione o udp true depois do ],
 
-{
+```sh
 "settings": {
 
   "clients": [
@@ -20,7 +20,8 @@ Configure o json do servidor v2ray, /etc/v2ray/config.json. Adicione o udp true 
   "udp": true
   
 },
-}
+```
+
 ```sh
 sudo systemctl restart v2ray
 sudo service v2ray restart
